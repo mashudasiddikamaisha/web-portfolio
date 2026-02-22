@@ -72,11 +72,11 @@ const About = () => {
               Java Front-End Developer
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              I’m <span className="text-white font-semibold">Maisha</span>, a passionate Java Front-End Developer who loves building secure, scalable, and performance-driven web applications.
+              I’m <span className="text-white font-semibold">Maisha</span>, a passionate React Front-End Developer who loves building secure, scalable, and performance-driven web applications.
             </p>
 
             <p className="text-gray-400 mb-6">
-              My core strength lies in backend development using <span className="text-cyan-400">Java & Spring Boot</span>, creating RESTful APIs, handling authentication, and designing efficient databases. I also enjoy crafting modern, responsive UIs using <span className="text-pink-400">React & Tailwind CSS</span>.
+              My core strength lies in frontend development using <span className="text-cyan-400">JavaScript & MongoDB</span>, handling authentication, and designing efficient databases. I also enjoy crafting modern, responsive UIs using <span className="text-pink-400">React & Tailwind CSS</span>.
             </p>
 
             {/* Stats */}

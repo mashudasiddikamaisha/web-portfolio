@@ -75,7 +75,7 @@ const Projects = () => {
             </span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Real-world projects showcasing my Java Full-Stack development skills.
+            Real-world projects showcasing my React Front-End development skills.
           </p>
         </div>
 
