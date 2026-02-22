@@ -35,7 +35,7 @@ const Contact = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     viewport={{ once: true }}
                 >
-                    Java Front-End Developer available for full-time roles, freelance
+                    React Front-End Developer available for full-time roles, freelance
                     projects & collaborations.
                 </motion.p>
 
