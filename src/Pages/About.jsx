@@ -69,7 +69,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold mb-4 text-pink-400">
-              Java Front-End Developer
+              React Front-End Developer
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
               I’m <span className="text-white font-semibold">Maisha</span>, a passionate React Front-End Developer who loves building secure, scalable, and performance-driven web applications.
