@@ -69,10 +69,10 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold mb-4 text-pink-400">
-              Java Full Stack Developer
+              Java Front-End Developer
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              I’m <span className="text-white font-semibold">Maisha</span>, a passionate Java Full-Stack Developer who loves building secure, scalable, and performance-driven web applications.
+              I’m <span className="text-white font-semibold">Maisha</span>, a passionate Java Front-End Developer who loves building secure, scalable, and performance-driven web applications.
             </p>
 
             <p className="text-gray-400 mb-6">
