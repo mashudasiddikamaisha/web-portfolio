@@ -12,7 +12,6 @@ const Home = () => {
       <div className='absolute -top-1/2 -right-32 w-96 h-96 rounded-full bg-cyan-400/30 blur-3xl animate-pulse delay-1000'></div>
       <div className='absolute bottom-0 left-1/3 w-96 h-96 rounded-full bg-purple-600/30 blur-3xl animate-pulse delay-500'></div>
 
-      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,#ffffff15_1px, transparent_0)] bg-size-[40px_40px] opacity-30"></div> */}
       <motion.div
         className='relative z-10 max-w-6xl w-full px-6 grid md:grid-cols-2 gap-16 items-center'
         initial={{ opacity: 0, y: 60 }}
@@ -20,7 +19,7 @@ const Home = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        {/* <div className='relative z-10 max-w-6xl w-full px-6 grid md:grid-cols-2 gap-16 items-center'> */}
+
         <motion.div
           className="text-center md:text-left"
           initial={{ opacity: 0, x: -50 }}
@@ -53,10 +52,6 @@ const Home = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 mt-4">
-              {/* <button className="px-10 py-4 rounded-full font-semibold text-lg bg-linear-to-r from-pink-500 to-purple-600
-             hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(236,72,153,0.6)]">
-              View Projects
-            </button> */}
               <motion.a
                 whileHover={{ scale: 1.08 }}
                 whileTap={{ scale: 0.95 }}
@@ -66,11 +61,6 @@ const Home = () => {
                 View Projects
               </motion.a>
 
-
-              {/* <button className="px-10 py-4 rounded-full font-semibold text-lg border border-cyan-400 text-cyan-400 hover:bg-cyan-400
-              hover:text-black transition-all duration-300 shadow-[0_0_30px_rgba(34, 211, 238, 0.4)]">
-              Download Resume
-            </button> */}
               <motion.a
                 whileHover={{ scale: 1.08 }}
                 whileTap={{ scale: 0.95 }}
@@ -85,7 +75,6 @@ const Home = () => {
 
         {/* Right Profile Image  */}
 
-        {/* <div className="flex justify-center"> */}
         <motion.div
           className="flex justify-center"
           initial={{ opacity: 0, x: 50 }}

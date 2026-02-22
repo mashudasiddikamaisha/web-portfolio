@@ -5,7 +5,6 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("home");
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const navItems = ["home", "projects", "about", "contact"];
 
   useEffect(() => {
@@ -38,11 +37,10 @@ const Navbar = () => {
             <a
               key={item}
               href={`#${item}`}
-              className={`relative px-3 py-2 transition-all duration-300 ${
-                active === item
+              className={`relative px-3 py-2 transition-all duration-300 ${active === item
                   ? "text-pink-400 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:h-0.5 after:bg-linear-to-r after:from-pink-500 after:to-purple-500"
                   : "text-gray-300 hover:text-white hover:after:w-full after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-0.5 after:bg-linear-to-r after:from-cyan-400 after:to-pink-500 after:transition-all after:duration-300"
-              }`}
+                }`}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </a>
@@ -66,9 +64,8 @@ const Navbar = () => {
               key={item}
               href={`#${item}`}
               onClick={() => setOpen(false)}
-              className={`text-lg px-4 py-2 rounded-lg ${
-                active === item ? "text-pink-400" : "text-white"
-              } bg-black/30 hover:bg-linear-to-r hover:from-pink-500 hover:to-purple-500 transition-all duration-300`}
+              className={`text-lg px-4 py-2 rounded-lg ${active === item ? "text-pink-400" : "text-white"
+                } bg-black/30 hover:bg-linear-to-r hover:from-pink-500 hover:to-purple-500 transition-all duration-300`}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </a>
