@@ -12,7 +12,7 @@ const Footer = () => {
         </p>
 
         <p className="text-gray-500">
-          Java Front-End Developer
+          React Front-End Developer
         </p>
 
         <div className="flex gap-4">
