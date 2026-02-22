@@ -30,15 +30,15 @@ const projects = [
   },
   {
     title: "Portfolio Website",
-    desc: "Personal developer portfolio with animations and responsive UI.",
+    desc: "Personal developer portfolio is a clean, modern developer portfolio website built to highlight technical skills, experience, and real‑world projects. It serves as an online CV that communicates my expertise to potential employers, clients, or collaborators.",
     tech: [
       "React",
       "Tailwind CSS",
       "Framer Motion",
       "Responsive Design",
     ],
-    live: "#",
-    github: "#",
+    live: "https://web-portfolio-msm.netlify.app/",
+    github: "https://github.com/mashudasiddikamaisha/web-portfolio",
   },    
   {
     title: "Skill Swap App",
